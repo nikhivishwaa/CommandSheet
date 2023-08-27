@@ -1,8 +1,8 @@
 # CommandSheet
 This is Sheet For Commands
 ## Powershell
-<p>Script execution Policy</h4> `Enable/Disable`: 
-<h6>Run following command in Windows Powershell ISE</p><br>
+<h6>Script execution Policy</h6> `Enable/Disable` 
+<p>Run following command in Windows Powershell ISE</p><br>
 `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser`
 
 ## Virtual ENV
