@@ -1,16 +1,9 @@
 # CommandSheet
 This is Sheet For Commands
 ## Powershell
-<p>Script execution Policy `Enable/Disable`</h4><br>
+<p>Script execution Policy `Enable/Disable` </h4><br>
 <h6>Run following command in Windows Powershell ISE</p><br>
-```Set-ExecutionPolicy RemoteSigned -Scope CurrentUser```<br>
+`Set-ExecutionPolicy RemoteSigned -Scope CurrentUser`
 
 ## Virtual ENV
- <h4>Step 1:</h4>
-  ```pip install virtualenv```
- <h4>Step 2:</h4>
-  ```python -m venv {env_name}```
- <h4>Step 3:</h4>
-  ```{env_name}\Scripts\activate```
- <h4>Step 4:</h4>
-  ```deactivate```
+ 
