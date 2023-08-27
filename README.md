@@ -6,7 +6,7 @@ This is Sheet For Commands
 `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser`
 
 ## Virtual ENV
- 
+ `Enable/Disable` ok go
 ## Commands
 ```
 • info - get user info
