@@ -1,7 +1,7 @@
 # CommandSheet
 This is Sheet For Commands
 ## Powershell
-<p>Script execution Policy</h4> `Enable/Disable` 
+<p>Script execution Policy</h4> `Enable/Disable`: 
 <h6>Run following command in Windows Powershell ISE</p><br>
 `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser`
 
