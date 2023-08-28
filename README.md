@@ -8,3 +8,6 @@ Script execution Policy `Enable/Disable`
 ## Virtual ENV
  `Enable/Disable` ok go
 
+`pip freeze > requirements.txt`
+
+ `pip install -r requirements.txt`
