@@ -27,11 +27,11 @@ Script execution Policy `Enable/Disable`
 `git config --global user.name ""` to set name<br>
 `git config --global user.email "xyz@gmail.com"` to set email<br>
 
-View name and email by following command
+View name and email by following command<br>
 `git config --global user.name` <br>
 `git config --global user.name`<br>
 
-Initilize Git Repo
+Initilize Git Repo<br>
 `git init` initialize<br>
 `ls -lart` to show hidden or .git folder in current dir<br>
 `git status` to check the git project status<br>
