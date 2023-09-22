@@ -14,46 +14,46 @@ Script execution Policy `Enable/Disable`
 
 ## Django Commands
 `django-admin startproject "Project name"`<br>
-`cd "project name"`
-`python manage.py runserver`
-`python manage.py migrate`
-`python manage.py startapp "app name"`
-`python manage.py createsuperuser` superuser created in CLI
-`python manage.py makemigrations`
-`python manage.py migrate`
+`cd "project name"`<br>
+`python manage.py runserver`<br>
+`python manage.py migrate`<br>
+`python manage.py startapp "app name"`<br>
+`python manage.py createsuperuser` superuser created in CLI<br>
+`python manage.py makemigrations`<br>
+`python manage.py migrate`<br>
 `python manage.py shell`
 
 ## Git Commands
-`git config --global user.name ""` to set name
-`git config --global user.email "xyz@gmail.com"` to set email
+`git config --global user.name ""` to set name<br>
+`git config --global user.email "xyz@gmail.com"` to set email<br>
 
 View name and email by following command
-`git config --global user.name` 
-`git config --global user.name`
+`git config --global user.name` <br>
+`git config --global user.name`<br>
 
 Initilize Git Repo
-`git init` initialize
-`ls -lart` to show hidden or .git folder in current dir
-`git status` to check the git project status
-`git add "filename"` to add file for commit
-`git commit -m "message or comment"` commit the change
-`touch "filename"` to create blank files
-`git add -A` to add all the files
-`git checkout "filename"` match this file with last commit if it commited once and now modified
-`git checkout -f` match all files with last commit
-`git log` gives all commits details
-`git log -p -"no. of commit fron last'` filter the commit
-`git diff` compare working area with staging area
-`git diff --staged` comparing staged file with last commit
-`git commit -a -m "commit message"` commit without staging the file
-`git rm --cached "filename"` unstage the file
-`git rm "filename"` delete the file from working directory
-`ls` list all the files
-`git status -s`give short status
-`touch .gitignore` having file name or dir which is not be tracked
-    `mylogs.log` ignore this file whenever it presents in dir
-    `/mylogs.log` ignore file in which directory .gitignore is present
-    `*.log` ignore the .log extension file
-    `folder/` ignore the entire directory
-`git branch "branch name"` create new branch
-`git checkout "branch name"` switch branch
+`git init` initialize<br>
+`ls -lart` to show hidden or .git folder in current dir<br>
+`git status` to check the git project status<br>
+`git add "filename"` to add file for commit<br>
+`git commit -m "message or comment"` commit the change<br>
+`touch "filename"` to create blank files<br>
+`git add -A` to add all the files<br>
+`git checkout "filename"` match this file with last commit if it commited once and now modified<br>
+`git checkout -f` match all files with last commit<br>
+`git log` gives all commits details<br>
+`git log -p -"no. of commit fron last'` filter the commit<br>
+`git diff` compare working area with staging area<br>
+`git diff --staged` comparing staged file with last commit<br>
+`git commit -a -m "commit message"` commit without staging the file<br>
+`git rm --cached "filename"` unstage the file<br>
+`git rm "filename"` delete the file from working directory<br>
+`ls` list all the files<br>
+`git status -s`give short status<br>
+`touch .gitignore` having file name or dir which is not be tracked<br>
+    `mylogs.log` ignore this file whenever it presents in dir<br>
+    `/mylogs.log` ignore file in which directory .gitignore is present<br>
+    `*.log` ignore the .log extension file<br>
+    `folder/` ignore the entire directory<br>
+`git branch "branch name"` create new branch<br>
+`git checkout "branch name"` switch branch<br>
