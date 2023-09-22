@@ -13,7 +13,7 @@ Script execution Policy `Enable/Disable`
  `pip install -r requirements.txt`
 
 ## Django Commands
-`django-admin startproject "Project name"`
+`django-admin startproject "Project name"`<br>
 `cd "project name"`
 `python manage.py runserver`
 `python manage.py migrate`
