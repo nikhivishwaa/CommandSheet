@@ -57,3 +57,18 @@ Initilize Git Repo<br>
     `folder/` ignore the entire directory<br>
 `git branch "branch name"` create new branch<br>
 `git checkout "branch name"` switch branch<br>
+`git merge` merge new branch to master
+`git branch` list all the branches
+`git checkout -b "branch name"` create a new branch and switch on it
+`git remote add "origin" "repo url".git` add remote repository
+`git remote` check the origin name list
+`git remote -v` fetch and push url
+`git push "origin" "branch name"` push code on github
+`ssh-keygen -t rsa -b 4096 -C "name@email.com"` generate ssh key
+`eval $(ssh-agent -s)` deploy ssh key
+`ssh-add ~/.ssh/id_rsa` add ssh
+`cat ~/.ssh/id_rsa.pub` see long ssh key
+`git remote set-url "existing origin" "ssh url"`
+`git push -u "origin" "branchname"` push code to github repo in specified branch 
+`git clone "repo-url"` clone repository in repo-url folder
+`git clone "repo-url" "repo-1"` clone repository in repo-1 folder
