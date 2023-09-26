@@ -6,6 +6,8 @@ Script execution Policy `Enable/Disable`
 ```Set-ExecutionPolicy RemoteSigned -Scope CurrentUser```
 
 ## Virtual ENV
+`python -m venv "project1"` create new environment
+
  `Enable/Disable` ok go
 
 `pip freeze > requirements.txt`
