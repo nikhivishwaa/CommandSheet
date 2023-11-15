@@ -62,6 +62,8 @@ Initilize Git Repo<br>
 `git merge` merge new branch to master<br>
 `git branch` list all the branches<br>
 `git checkout -b "branch name"` create a new branch and switch on it<br>
+`git branch -d "branch name"` delete a branch from local area<br>
+`git branch -D "branch name"` delete a branch which is commited once local area<br>
 `git remote add "origin" "repo url".git` add remote repository<br>
 `git remote` check the origin name list<br>
 `git remote -v` fetch and push url<br>
