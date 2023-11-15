@@ -23,7 +23,10 @@ Script execution Policy `Enable/Disable`
 `python manage.py createsuperuser` superuser created in CLI<br>
 `python manage.py makemigrations`<br>
 `python manage.py migrate`<br>
-`python manage.py shell`
+`python manage.py shell`<br>
+`go to admins.py then write following code` Register models <br>
+`from .models import "table class"`<br>
+`admin.site.register("table class")`<br>
 
 ## Git Commands
 `git config --global user.name ""` to set name<br>
