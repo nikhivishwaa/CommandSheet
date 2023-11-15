@@ -35,6 +35,7 @@ View name and email by following command<br>
 
 Initilize Git Repo<br>
 `git init` initialize<br>
+`code .` open editor<br>
 `ls -lart` to show hidden or .git folder in current dir<br>
 `git status` to check the git project status<br>
 `git add "filename"` to add file for commit<br>
