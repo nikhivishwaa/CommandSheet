@@ -24,11 +24,11 @@ Script execution Policy `Enable/Disable`
 `python manage.py makemigrations`<br>
 `python manage.py migrate`<br>
 `python manage.py shell`<br>
-    `from models import "class"`
-    `class.objects.all()` list all objects of query class
-    `class.objects.get(parameter='xyz')` get specific objects of query class
-    `a = class.objects.get(parameter='xyz')` 
-    `a.attributes` access object
+    `from models import "class"`<br>
+    `class.objects.all()` list all objects of query class<br>
+    `class.objects.get(parameter='xyz')` get specific objects of query class<br>
+    `a = class.objects.get(parameter='xyz')` <br>
+    `a.attributes` access object<br>
 `go to admins.py then write following code` Register models <br>
 `from .models import "table class"`<br>
 `admin.site.register("table class")`<br>
