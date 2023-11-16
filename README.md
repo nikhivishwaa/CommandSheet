@@ -32,6 +32,9 @@ Script execution Policy `Enable/Disable`
 `go to admins.py then write following code` Register models <br>
 `from .models import "table class"`<br>
 `admin.site.register("table class")`<br>
+`{% extends 'basic.html' %}` Template Inheritance<br>
+`{% block title %} {% endblock %}` syntax for basic.html<br>
+`{% block title %} "write your html/markup here" {% endblock %}` fill basic.html<br>
 
 ## Git Commands
 `git config --global user.name ""` to set name<br>
