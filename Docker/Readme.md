@@ -22,3 +22,13 @@ docker start "container name"
 ```
 docker stop "container name"
 ```
+
+###### execute a command in container from normal terminal
+```
+docker exec inspiring_shaw ls
+```
+
+###### execute a command in container from normal terminal
+```
+docker exec inspiring_shaw ls
+```
