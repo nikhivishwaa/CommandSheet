@@ -40,3 +40,11 @@ docker exec "container name" "command"
 ```
 docker exec -it "container name" bash
 ```
+
+###### port maping - exposing container port to local machine port
+```
+docker run -it -p "local port":"internal port" "image"
+```
+```
+docker run -it -p 6000:8000 nginx
+```
