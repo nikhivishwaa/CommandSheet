@@ -46,7 +46,7 @@ docker exec -it "container name" bash
 docker run -it -p "local port":"internal port" "image"
 ```
 ```
-docker run -it -p 6000:8000 nginx
+docker run -it -p 6000:80 nginx
 ```
 
 ###### passing env vars for container
