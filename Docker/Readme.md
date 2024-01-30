@@ -48,3 +48,8 @@ docker run -it -p "local port":"internal port" "image"
 ```
 docker run -it -p 6000:8000 nginx
 ```
+
+###### passing env vars for container
+```
+docker run -it -p 6000:8000 -e key=value -e key=value nginx
+```
