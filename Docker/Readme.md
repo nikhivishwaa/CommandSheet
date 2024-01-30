@@ -25,10 +25,10 @@ docker stop "container name"
 
 ###### execute a command in container from normal terminal
 ```
-docker exec inspiring_shaw ls
+docker exec "container name" "command"
 ```
 
-###### execute a command in container from normal terminal
+###### connect terminal to container's terminal
 ```
-docker exec inspiring_shaw ls
+docker exec -it "container name" bash
 ```
