@@ -12,3 +12,13 @@ docker container ls
 ```
 docker container ls -a
 ```
+
+###### start a container
+```
+docker start "container name"
+```
+
+###### stop a container
+```
+docker stop "container name"
+```
