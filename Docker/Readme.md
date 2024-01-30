@@ -53,3 +53,34 @@ docker run -it -p 6000:80 nginx
 ```
 docker run -it -p 6000:8000 -e key=value -e key=value nginx
 ```
+
+##### containerizing nodejs app
+
+###### step 1 : create `Dockerfile` in the application source code
+
+###### step 2 : add details/configuration of image
+```
+FROM ubuntu
+
+RUN apt-get update
+RUN apt-get install -y curl
+RUN curl -sL https://deb.nodesource.com/setup_18.x | bash -
+RUN apt-get upgrade -y
+RUN apt-get install -y nodejs
+
+COPY package.json package.json
+COPY package-lock.json package-lock.json
+COPY main.js main.js
+
+RUN npm install
+
+ENTRYPOINT [ "node", "main.js" ] // if the container started this command executed
+```
+
+###### step 3 : run the following command to create your custom image 
+```
+docker build -t "image name" "Folder location of Dockerfile"
+```
+```
+docker build -t myfirst-image .
+```
