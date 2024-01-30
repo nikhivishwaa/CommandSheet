@@ -84,3 +84,15 @@ docker build -t "image name" "Folder location of Dockerfile"
 ```
 docker build -t myfirst-image .
 ```
+
+###### step 4 : create repository on dockerhub like `nodejsapp` then copy image name `<username>/nodejsapp` and build your image with this name locally and move to step 5
+
+###### step 5 : publish docker image on dockerhub
+```
+docker push nikhivishwa/nodejsapp
+```
+
+###### step 6 : use docker image
+```
+docker run -e PORT=8000 -p 8000:8000 nikhivishwa/nodejsapp
+```
