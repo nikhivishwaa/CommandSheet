@@ -3,6 +3,14 @@
 docker run -it ubuntu
 ```
 
+###### view available docker images in local machine
+```
+docker images
+```
+```
+docker images ls
+```
+
 ###### list running containers
 ```
 docker container ls
