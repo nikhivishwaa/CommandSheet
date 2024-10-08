@@ -8,6 +8,8 @@ Script execution Policy `Enable/Disable`
 ## Virtual ENV
 `python -m venv "project1"` create new environment
 
+` python -m virtualenv env -p python39`  # with specific version of python
+
  `Enable/Disable` ok go
 
 `pip freeze > requirements.txt`
